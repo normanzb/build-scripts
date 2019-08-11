@@ -1,0 +1,27 @@
+{
+  "name": "@normanzb/build-scripts",
+  "version": "0.0.0",
+  "description": "This is a place for scripts frequently used in JS projects",
+  "main": "README.md",
+  "bin": {
+    "push-current-branch-and-latest-tag": "git/push-current-branch-and-latest-tag.js"
+  },
+  "scripts": {
+    "postversion": "node ./git/push-current-branch-and-latest-tag.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normanzb/build-scripts.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.norm.im"
+  },
+  "author": "",
+  "license": "none",
+  "dependencies": {
+    "deepmerge": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0"
+  }
+}
