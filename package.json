@@ -1,6 +1,6 @@
 {
   "name": "@normanzb/build-scripts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is a place for scripts frequently used in JS projects",
   "main": "README.md",
   "bin": {
