@@ -6,7 +6,7 @@ const exec = util.promisify(require("child_process").exec)
 const trimOutput = (output) => {
     let ret = output.replace(/\r/g, "").replace(/\n/g, "")
     ret = ret.split("/")
-    return ret[ret.length - 1]
+    return ret.slice(2).join("/")
 }
 
 const push = async (branch, tag, dryRun = true) => {
