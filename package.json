@@ -1,5 +1,5 @@
 {
-  "name": "@normanzb/build-scripts",
+  "name": "normanzb-build-scripts",
   "version": "0.0.3",
   "description": "This is a place for scripts frequently used in JS projects",
   "main": "README.md",
