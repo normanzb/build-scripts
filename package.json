@@ -1,6 +1,6 @@
 {
   "name": "@normanzb/build-scripts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a place for scripts frequently used in JS projects",
   "main": "README.md",
   "bin": {
@@ -13,7 +13,6 @@
     "type": "git",
     "url": "https://github.com/normanzb/build-scripts.git"
   },
-
   "author": "",
   "license": "none",
   "dependencies": {
