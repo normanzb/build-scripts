@@ -13,9 +13,7 @@
     "type": "git",
     "url": "https://github.com/normanzb/build-scripts.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.norm.im"
-  },
+
   "author": "",
   "license": "none",
   "dependencies": {
